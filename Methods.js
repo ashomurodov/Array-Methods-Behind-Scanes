@@ -67,3 +67,14 @@ function filter(call) {
 
   return newArr;
 }
+
+// pop method
+const arrayPop = [2, 3, 4, 5, 6, 7];
+
+function pop(array) {
+  let lastElement = array[array.length - 1];
+  array.length--;
+  return lastElement;
+}
+
+console.log(pop(arrayPop));
